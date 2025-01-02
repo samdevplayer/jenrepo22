@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Samrat Names in Korean</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
             background-color: #f4f4f4;
         }
         .container {
-            width: 50%;
+            width: 60%;
             margin: 50px auto;
             padding: 20px;
             background-color: white;
@@ -22,36 +22,36 @@
         h1 {
             color: #333;
         }
-        p {
-            color: #666;
-            font-size: 16px;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        button:hover {
-            background-color: #45a049;
+        li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Welcome to My Web Page</h1>
-        <p id="text">Click the button below to change this text.</p>
-        <button onclick="changeText()">Click Me</button>
+        <h1>Samrat (Emperors) Names in Korean</h1>
+        <ul>
+            <li>Asoka - 아쇼카</li>
+            <li>Chandragupta Maurya - 찬드라굽타 모우리야</li>
+            <li>Samudragupta - 사무드라굽타</li>
+            <li>Akbar - 악바르</li>
+            <li>Shivaji Maharaj - 시바지 마하라즈</li>
+            <li>Raja Raja Chola - 라자 라자 초라</li>
+            <li>Harsha - 하르샤</li>
+            <li>Krishna Deva Raya - 크리슈나 데바 라야</li>
+            <li>Ranjit Singh - 란짓 싱</li>
+            <li>Genghis Khan - 칭기즈 칸</li>
+        </ul>
     </div>
-
-    <script>
-        function changeText() {
-            document.getElementById('text').innerText = "The text has been changed!";
-        }
-    </script>
 
 </body>
 </html>
